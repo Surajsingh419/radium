@@ -1,0 +1,15 @@
+const loggerObj = require('./logger')
+const helperObj =  require('./utill/helper')
+const formaterObj = require ('../validator/formater')
+
+loggerObj.logMessege('Module system')
+loggerObj.printWelcomeMessage()
+console.log(loggerObj.loggerEndpoint)
+console.log('-----------------------------------')
+helperObj.getDate()
+helperObj.getMonth()
+helperObj.getBatchInfo()
+console.log('-----------------------------------')
+formaterObj.trimInput
+formaterObj.changetoLowerCase()
+formaterObj.changetoUpperCase()
