@@ -1,7 +1,7 @@
-const BookModel = require("../models/bookModel.js")
+const BookModel = require("../models/authorsModel.js")
 const moment= require("moment")
 const mongoose = require("mongoose")
-const bookModel = require("../models/bookModel.js")
+const bookModel = require("../models/authorsModel.js")
 // Task 1- Create a collection of 11+ books.
 const createBook = async function (req, res) {
     const book = req.body
