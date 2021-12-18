@@ -7,7 +7,7 @@ const { promisify } = require("util");
 
 
 
-//Connect to redis database
+//Connect to redis database to
 const redisClient = redis.createClient
 (
     18197,//6379
